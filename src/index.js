@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { DataLayer } from './context/DataLayer';
+import reducer, { initialState } from './context/reducer';
+import { BrowserRouter } from 'react-router-dom';
 
-ReactDOM.render(
+const app =
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <DataLayer initialState={initialState} reducer={reducer}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </DataLayer>
+  </React.StrictMode>
+ReactDOM.render(
+  app,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

@@ -1,0 +1,16 @@
+.playerControls {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: #282828;
+  padding: 10px 20px;
+}
+
+.playerControls ._VolumeRSWP,
+.playerControls ._DevicesRSWP {
+  display: none;
+}

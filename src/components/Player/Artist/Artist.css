@@ -1,0 +1,38 @@
+.artist {
+  margin-bottom: 100px;
+}
+.artist__header {
+  height: 30vh;
+  padding: 0 30px 30px 30px;
+  display: flex;
+}
+
+.artist__headerImg {
+  height: 100%;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.artist__headerDet {
+  align-self: flex-end;
+}
+
+.artist__headerName {
+  font-weight: bolder;
+  font-size: 64px;
+}
+
+.artist__headerArtists {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.artist__section {
+  padding: 30px;
+}
+
+.artist__sectionHeading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+}

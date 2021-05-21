@@ -1,0 +1,14 @@
+.search {
+  padding: 10px 30px;
+  margin-bottom: 100px;
+}
+
+.search__section {
+  margin-bottom: 30px;
+}
+
+.search__sectionHeading {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 500;
+}

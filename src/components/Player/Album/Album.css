@@ -1,0 +1,31 @@
+.album {
+  margin-top: -20px;
+  margin-bottom: 100px;
+}
+
+.album__header {
+  height: 30vh;
+  padding: 0 30px 30px 30px;
+  display: flex;
+}
+
+.album__headerImg {
+  height: 100%;
+  object-fit: contain;
+  margin-right: 20px;
+  box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.75);
+}
+
+.album__headerDet {
+  align-self: flex-end;
+}
+
+.album__headerName {
+  font-weight: bolder;
+  font-size: 64px;
+}
+
+.album__headerArtists {
+  font-weight: 500;
+  font-size: 16px;
+}

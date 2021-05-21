@@ -1,0 +1,40 @@
+.playlist {
+  margin-bottom: 100px;
+}
+
+.playlist__header {
+  height: 30vh;
+  padding: 0 30px 30px 30px;
+  display: flex;
+}
+
+.playlist__headerImg {
+  height: 100%;
+  object-fit: contain;
+  margin-right: 20px;
+  box-shadow: 0px 1px 13px 3px rgba(0, 0, 0, 0.75);
+}
+
+.playlist__headerDet {
+  align-self: flex-end;
+}
+
+.playlist__headerName {
+  font-weight: bolder;
+  font-size: 64px;
+}
+
+.playlist__headerPlaylists {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.playlist__headerDesc {
+  margin-bottom: 4px;
+  overflow: hidden;
+  color: white;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
