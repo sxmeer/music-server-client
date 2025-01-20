@@ -1,0 +1,25 @@
+.error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .error > p {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .error > a {
+    padding: 15px;
+    width: max-content;
+    border-radius: 99px;
+    background-color: #1db954;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+  }
+  

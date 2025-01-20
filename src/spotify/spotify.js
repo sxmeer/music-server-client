@@ -1,8 +1,8 @@
 export const authEndPoint = "https://accounts.spotify.com/authorize";
 export const redirectUri = "https://music-player-app-dd145.web.app/";
 export const spotifyLogoutURL = "https://www.spotify.com/logout/";
-export const loginTokenURL = "https://music-server-node-spot.herokuapp.com/login";
-export const refreshTokenURL = "https://music-server-node-spot.herokuapp.com/refresh";
+export const loginTokenURL = "http://http://54.160.228.232/login";
+export const refreshTokenURL = "http://http://54.160.228.232/refresh";
 const clientId = "25c4582018f14ff8ad9c57698a4d43d0";
 
 const scopes = [

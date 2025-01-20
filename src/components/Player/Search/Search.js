@@ -13,7 +13,7 @@ function Search() {
   const [artists, setArtists] = useState([]);
   const [playlists, setPlaylists] = useState([]);
   const [albums, setAlbums] = useState([]);
-  console.log(artists);
+  // console.log(artists);
 
   useEffect(() => {
     dispatch({ type: actionTypes.SET_SEARCH_MODE, payload: true })
@@ -33,7 +33,7 @@ function Search() {
     spotify.searchPlaylists(searchString, { limit: 14 })
       .then(data => {
         if (cancel) return;
-        let fetchedPlaylists = data.body.playlists.items
+        let fetchedPlaylists = data.body.playlists.items.filter(item => item);
         setPlaylists(fetchedPlaylists);
       }, err => {
         console.log('Something went wrong!', err);
